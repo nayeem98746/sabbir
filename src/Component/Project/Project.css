@@ -1,0 +1,25 @@
+.service{
+    border: 2px solid gold;
+    border-radius: 20px;
+}
+.service:hover{
+    background-color: grey;
+    
+}
+.img-style{
+    align-items: center;
+    border-radius: 20px;
+}
+.name-text{
+    color: gold;
+}
+.btn-class{
+    background-color: gold;
+    padding: 15px;
+    border: 2px solid ghostwhite;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    
+}
