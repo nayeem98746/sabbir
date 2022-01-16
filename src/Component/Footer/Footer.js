@@ -1,21 +1,22 @@
 import { Facebook, GitHub, Instagram, LinkedIn } from '@mui/icons-material';
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <div >
+        <div className='footer' >
           <div className='footer-content'>
-          <h3>code opacity</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veritatis harum autem placeat rerum quos perferendis sapiente dolore ea natus dolorem suscipit, facere eveniet. Consectetur quia fuga nam neque pariatur.</p>
+          <h3>Sabbir Ahmed Nayeem</h3>
+            <p>My full name is sabbir ahmed nayeem . I am a web Developer in React. </p>
             <ul className='socials'>
-                <li><a href=""><Facebook></Facebook></a></li>
-                <li><a href=""><GitHub></GitHub></a></li>
-                <li><a href=""><Instagram></Instagram></a></li>
-                <li><a href=""><LinkedIn></LinkedIn></a></li>
+                <li><a href="https://www.facebook.com/sabbirahmed.nayeem.10"><Facebook></Facebook></a></li>
+                <li><a href="https://github.com/nayeem98746"><GitHub></GitHub></a></li>
+                <li><a href="https://www.instagram.com/sabbirahmednayeem/"><Instagram></Instagram></a></li>
+                <li><a href="https://www.linkedin.com/in/sabbir-ahmed-b98b0a226/"><LinkedIn></LinkedIn></a></li>
                 </ul>    
             </div> 
-            <div>
-            <p>Copyright and copy; 2020 codeOpacity. designed by nethunt</p>    
+            <div className='footer-button'>
+            <p>Copyright and copy © 2020 codeOpacity.</p>    
             </div>         
         </div>
     );

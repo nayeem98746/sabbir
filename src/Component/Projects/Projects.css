@@ -1,17 +1,20 @@
 .bg-color{
-    background-color:black ;
+    /* background-color:black ; */
+    padding-top: 50px;
 }
 
 .text-style{
     text-align: center;
     color: gold;
+    background-color: black;
+
 }
 .service-container{
   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:20px;
-    padding-left: 50px;
+    padding-left: 10px;
     margin: 20px;
     
 }

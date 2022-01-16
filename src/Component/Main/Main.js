@@ -22,7 +22,7 @@ const Main = () => {
                     <a href='https://www.linkedin.com/in/sabbir-ahmed-b98b0a226/' ><LinkedIn className='icon-style'></LinkedIn></a>
                     <a href="https://www.instagram.com/sabbirahmednayeem/"><Instagram className='icon-style'></Instagram></a>
                     </span><br />
-                    <button className='text-button'>About</button>
+                    <button  className='text-button'>About</button>
                     <button className='text-button'>Get Resume</button>
                 </div>
 
